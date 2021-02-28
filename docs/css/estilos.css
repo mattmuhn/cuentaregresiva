@@ -109,7 +109,7 @@ main {
 	text-align: center;
 }
 
-.contenedor .boton {
+.boton {
 	border: 1px solid #2e518b; /*anchura, estilo y color borde*/
 	padding: 10px; /*espacio alrededor texto*/
 	background-color: #daa520; /*color botón*/
