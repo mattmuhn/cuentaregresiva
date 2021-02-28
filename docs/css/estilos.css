@@ -11,6 +11,27 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.contenedor {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.boton {
+	border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #daa520; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 50px; /*bordes redondos*/
+}
+
 
 
 /* ? ----- PORTADA ----- */
@@ -43,14 +64,13 @@ body {
 }
 
 .portada .header .logotipo {
-	font-size: 50px;
-	font-size: 900;
+	font-size: 30px;
 	margin-bottom: 20px;
 	color: #EC008A;
 }
 
 .portada .header .mensaje {
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 600;
 	color: #EC008A;
 }
@@ -92,7 +112,7 @@ main {
 
 .simply-amount {
 	display: block;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 700;
 }
 
@@ -113,6 +133,12 @@ main {
 @media handheld, only screen and (max-widh: 767px) {
 	.simply-section {
 		border-radius: 5px;
+	}
+}
+
+@media handheld, only screen and (max-widh: 767px) {
+	.logotipo {
+		font-size: 20px;
 	}
 }
 
