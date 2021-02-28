@@ -11,28 +11,6 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-.contenedor {
-	width: 100%;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-}
-
-.boton {
-	border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-	padding: 10px; /*espacio alrededor texto*/
-	background-color: #daa520; /*color botón*/
-	color: #ffffff; /*color texto*/
-	text-decoration: none; /*decoración texto*/
-	text-transform: uppercase; /*capitalización texto*/
-	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-	border-radius: 50px; /*bordes redondos*/
-}
-
-
 
 /* ? ----- PORTADA ----- */
 .portada {
@@ -120,6 +98,7 @@ main {
 	font-weight: 300;
 	font-size: 30px;
 }
+
 
 
 
